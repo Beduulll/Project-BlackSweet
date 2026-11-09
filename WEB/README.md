@@ -38,7 +38,7 @@ Akun bawaan:
 Bisa juga bikin akun baru lewat tombol Buat akun di halaman login. Kalau lupa password, klik
 Lupa password terus jawab pertanyaan keamanannya.
 
-## Kalau error sqlite3
+## Kalau error sqlite3 
 
 Biasanya muncul error `Could not locate the bindings file`. Itu karena npm ngeblok script
 install sqlite3. Coba di folder `server`:
