@@ -92,7 +92,7 @@ db.serialize(() => {
       [username, hashPassword(password), 'Administrator', 'Nama usaha laundry Anda?', hashPassword(answer)],
       (insertErr) => {
         if (insertErr) return console.error('❌ Gagal membuat admin:', insertErr.message);
-        console.log(`👤 Akun admin dibuat -> username: ${username}`);
+        console.log(`👤 Akun admin dibuat -> username: ${username} | password: ${password}`);
       }
     );
   });
