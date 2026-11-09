@@ -13,8 +13,6 @@ Kalau mau manual:
 1. buka cmd di folder `server`, ketik
    ```
    npm install
-   npm install-scripts approve sqlite3
-   npm rebuild sqlite3
    npm run dev
    ```
 2. buka cmd baru di folder `frontend`, ketik
