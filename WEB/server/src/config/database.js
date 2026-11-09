@@ -81,7 +81,10 @@ db.serialize(() => {
 
   db.get('SELECT COUNT(*) AS total FROM users', [], (err, row) => {
     if (err) return console.error('❌ Gagal cek pengguna:', err.message);
-    if (row.total > 0) return;
+    if (row.total > 0) {
+      console.log(`👤 Akun admin -> username: ${process.env.ADMIN_USERNAME || 'admin'} | password: ${process.env.ADMIN_PASSWORD || 'admin123'}`);
+      return;
+    }
 
     const username = process.env.ADMIN_USERNAME || 'admin';
     const password = process.env.ADMIN_PASSWORD || 'admin123';
