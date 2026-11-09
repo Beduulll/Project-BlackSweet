@@ -23,6 +23,3 @@ npm-debug.log*
 # Operating system files
 .DS_Store
 Thumbs.db
-
-# Database lokal (dibuat otomatis)
-*.sqlite
