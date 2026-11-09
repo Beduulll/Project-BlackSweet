@@ -6,7 +6,7 @@ Backend pakai Node.js + Express + SQLite, frontend pakai React + TypeScript + Vi
 ## Cara jalanin
 
 Paling gampang klik `setup.bat` dulu (cukup sekali), habis itu klik `jalankan.bat`.
-Terus buka http://localhost:5173
+Terus buka http://localhost:5173 
 
 Kalau mau manual:
 
